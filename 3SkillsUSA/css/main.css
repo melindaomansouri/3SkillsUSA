@@ -1,0 +1,107 @@
+*	{
+		margin: 0;
+		padding: 0;
+}
+
+html	{
+		scroll-behavior: smooth;
+}
+
+body	{
+	background-color: red;
+}
+
+#background	{
+	height: 100%;
+	width: 100%;
+}
+
+nav	{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	color: #000;
+	object-fit: cover;
+	position: absolute;
+	top: 5%;
+	width: 100%;
+}
+
+.video-background	{
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	text-align: center;
+	font-size: 100px;
+	font-family: ;
+}
+
+.boat-top	{
+	padding-top: 300px;
+	font-size: 60px;
+	display: flex;
+	direction: row;
+	justify-content: center;	
+}
+
+.boats	{
+	
+}
+
+.boat1	{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+
+.grid-left	{
+	grid-column-start:0;
+	grid-column-end: 1;
+	}
+	
+.grid-right	{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding-left: 50px;
+}
+	
+.boat2	{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+article .text-boat	{
+	padding-left: 1000px;
+	padding-right: 20px;
+}
+
+/* scrool bar */
+	.scroll::-webkit-scrollbar {
+	display: none;
+	}
+
+/* new scrool bar */
+#scrollbar {
+  width: 0.5%;
+  height: 100%;
+  padding: 0;
+  margin: 0 0 0 auto;
+  left: 196.7vh;
+  top: 0;
+  position: fixed;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#scrollbar #bar {
+  width: 100%;
+  height: 0%;
+  right: 0%;
+  background-color: #f4f416;
+  border-left: 4px solid black;
+  border-radius: 3px;
+}
