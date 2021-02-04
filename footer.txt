@@ -1,0 +1,12 @@
+<footer>
+	<p>Author: Ethan, Alex<br>
+	<a href = "jaydz@live.com">jaydz@live</a></p>
+	<p>305.664.2238</p>
+	<p> 239.297.4504</p>
+	<a href = "www.pontoonboatrentals.com">Pontoon Boat Rentals</a>
+	<a href = "www.fishingboatrentals.com">Fishing Boat Rentals</a>
+	<a href = "www.kayakrentals.com">Kayak Rentals</a>
+	<a href = "www.rates.com">Rates</a>
+	<p>Website design by Florida Keys website company access-to-web.com Marathon, Conch Key, Duck Key, FL
+Copyright 2010, Pier 68, Long Key, Marathon, Conch Key, Duck Key, Islamorada in the FL Keys</p>
+</footer>
