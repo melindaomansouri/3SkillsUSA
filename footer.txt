@@ -1,12 +1,77 @@
-<footer>
-	<p>Author: Ethan, Alex<br>
-	<a href = "jaydz@live.com">jaydz@live</a></p>
-	<p>305.664.2238</p>
-	<p> 239.297.4504</p>
-	<a href = "www.pontoonboatrentals.com">Pontoon Boat Rentals</a>
-	<a href = "www.fishingboatrentals.com">Fishing Boat Rentals</a>
-	<a href = "www.kayakrentals.com">Kayak Rentals</a>
-	<a href = "www.rates.com">Rates</a>
-	<p>Website design by Florida Keys website company access-to-web.com Marathon, Conch Key, Duck Key, FL
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left:0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   border: 3px solid red;
+}
+
+.footer p {
+	text-align: left;
+	padding-left: 15px;
+    font-size: 16px;
+}
+
+.footer2 p {
+	text-align:center;
+    font-size: 14px;
+	padding: 0px 15px;
+}
+
+
+.footer-links a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: red;
+}
+
+</style>
+</head>
+<body>
+
+<div class="footer">
+
+<div class= "footer-links">
+    	<a href = "www.pontoonboatrentals.com">Pontoon Boat Rentals</a>
+		<a href = "www.fishingboatrentals.com">Fishing Boat Rentals</a>
+    	<a href = "www.kayakrentals.com">Kayak Rentals</a>
+		<a href = "www.rates.com">Rates</a>
+    </div>
+    
+  <div class="author">
+  	<p>305.664.2238	|	239.297.4504</p>
+  </div>
+  
+  <div class= "footer2">
+  <p>Website design by Florida Keys website company access-to-web.com Marathon, Conch Key, Duck Key, FL
 Copyright 2010, Pier 68, Long Key, Marathon, Conch Key, Duck Key, Islamorada in the FL Keys</p>
-</footer>
+  
+  </div>
+</div>
+
+</body>
+</html> 
+
+
+
+
+nav a{
+	background-color:#ec3636;
+	border-radius: 4px solid black;
+}
